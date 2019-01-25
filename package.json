@@ -1,0 +1,20 @@
+{
+  "name": "building",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "gulp-watch": "gulp watch"
+  },
+  "author": "zisu",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^4.0.1"
+  },
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-autoprefixer": "^6.0.0"
+  }
+}
