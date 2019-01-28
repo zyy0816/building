@@ -6,19 +6,27 @@
   "scripts": {
     "gulp": "gulp",
     "gulp-watch": "gulp watch",
-    "babel": "babel src/script -d build/script"
+    "babel": "babel src/script -d build/script",
+    "webpack": "webpack"
   },
   "author": "zisu",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^6.0.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0",
     "gulp-less": "^4.0.1",
+    "less-loader": "^4.1.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^3.5.6"
   },
   "dependencies": {
     "del": "^3.0.0",
